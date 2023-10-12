@@ -1,5 +1,6 @@
 
 
+
 module.exports = sequelize;
 require('dotenv').config();
 
@@ -16,3 +17,4 @@ const config = {
 }
 
 module.exports = config;
+

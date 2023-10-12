@@ -1,4 +1,5 @@
 # YAML file to test github actions
+
 name: Integration test
 
 on:
@@ -56,4 +57,3 @@ jobs:
 
       - name: Run integration tests
         run: npm test
-
