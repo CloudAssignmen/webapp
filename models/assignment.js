@@ -65,6 +65,4 @@ Assignment.initModel = (db) => {
 
 }
 
-
-
 module.exports = Assignment;

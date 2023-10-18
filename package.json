@@ -12,7 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/Nikhil-Reddy-Karukonda/webapp.git"
   },
+
   "author": "Hemanth Saragadam",
+
 
   "license": "ISC",
   "dependencies": {
