@@ -1,4 +1,5 @@
 {
+
   "name": "webapp",
   "version": "1.0.0",
   "description": "## Cloud Computing (CSYE 6225)",
@@ -12,6 +13,7 @@
     "url": "git+https://github.com/Nikhil-Reddy-Karukonda/webapp.git"
   },
   "author": "Nikhil Reddy Karukonda",
+
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
@@ -33,4 +35,5 @@
     "url": "https://github.com/Nikhil-Reddy-Karukonda/webapp/issues"
   },
   "homepage": "https://github.com/Nikhil-Reddy-Karukonda/webapp#readme"
+
 }
