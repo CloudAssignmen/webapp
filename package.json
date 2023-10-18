@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nikhil-Reddy-Karukonda/webapp.git"
+    "url": ""
   },
-  "author": "Nikhil Reddy Karukonda",
+  "author": "Hemanth Saragadam",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",

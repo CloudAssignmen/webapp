@@ -4,7 +4,7 @@
 require('dotenv').config();
 
 const config = {
-  // Extract database configurations from environment variables
+  
   "development": {
     "username": process.env.DB_USERNAME,
     "password": process.env.DB_PASSWORD,
