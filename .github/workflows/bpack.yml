@@ -60,3 +60,6 @@ jobs:
         -var "DB_HOST=${{ secrets.DB_HOST }}" \
         -var "DB_DIALECT=${{ secrets.DB_DIALECT }}" \
         ami-pack.pkr.hcl
+        
+
+      
