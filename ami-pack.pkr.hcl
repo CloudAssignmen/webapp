@@ -129,7 +129,7 @@ build {
   }
   provisioner "file" {
     destination = "/opt/start_up.sh"
-    source      = "scripts/start_up.sh"
+    source      = "scripts/init.sh"
   }
   provisioner "shell" {
     inline = [
