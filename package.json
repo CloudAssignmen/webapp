@@ -10,11 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nikhil-Reddy-Karukonda/webapp.git"
+
+    "url": ""
   },
-
   "author": "Hemanth Saragadam",
-
 
   "license": "ISC",
   "dependencies": {
@@ -34,8 +33,9 @@
     "nodemon": "^3.0.1"
   },
   "bugs": {
-    "url": "https://github.com/Nikhil-Reddy-Karukonda/webapp/issues"
+
+    "url": "https://github.com/"
   },
-  "homepage": "https://github.com/Nikhil-Reddy-Karukonda/webapp#readme"
+  "homepage": ""
 
 }
