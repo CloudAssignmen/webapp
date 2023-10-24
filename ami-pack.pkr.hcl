@@ -7,7 +7,7 @@ packer {
   }
 }
 
-variable "aws_region"   {
+variable "aws_region" {
   type    = string
   default = "us-east-1"
 }
@@ -80,7 +80,7 @@ variable "ENV_TYPE" {
 
 # https://www.packer.io/plugins/builders/amazon/ebs
 source "amazon-ebs" "my-ami" {
-  region          = "${var.aws_region}"
+  region          = "${var.aws_regions}"
   ami_name        = "csye6225_${formatdate("YYYY_MM_DD_hh_mm_ss", timestamp())}"
   ami_description = "AMI for CSYE 6225"
   ami_regions     = "${var.ami_region_list}"
