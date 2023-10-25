@@ -24,4 +24,6 @@ router.use((req, res, next) => {
     return res.status(405).json({ error: `Method ${req.method} not allowed.` });
 });
 
+
 module.exports = router;
+
