@@ -31,4 +31,5 @@ db.sync({ force: false, alter: true })
         process.exit(1);
     });
 
+
     
