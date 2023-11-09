@@ -4,7 +4,8 @@ const logger = require('../log');
 const hasPayload = (req) => req.body && Object.keys(req.body).length !== 0;
 const hasQueryParameters = (req) => req.query && Object.keys(req.query).length !== 0;
 
-const statsDClient = require('../metrics');
+const statsDClient = require('../metric');
+
 
 const checkHealth = async (req, res) => {
     const tags = { method: 'GET', path: `${req.originalUrl}` };
