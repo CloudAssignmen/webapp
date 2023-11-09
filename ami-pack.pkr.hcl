@@ -131,7 +131,9 @@ build {
     source      = "scripts/cloudwatch-config.json"
   }
   provisioner "file" {
+
     destination = "/opt/init.sh"
+
     source      = "scripts/init.sh"
   }
   provisioner "shell" {
