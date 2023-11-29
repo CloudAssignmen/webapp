@@ -14,6 +14,8 @@ cd /Applications/Postgres.app/Contents/Versions/latest/bin
 ./psql -U nikhil -d postgres
 
 lsof -i:8080
+
+
 kill -9 **pid**
 
 In psql terminal - SELECT version();
