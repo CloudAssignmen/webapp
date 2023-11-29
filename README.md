@@ -68,6 +68,8 @@ psql -c "alter user postgres with password 'StrongAdminPassw0rd'"
 psql
 
 sudo -u postgres psql
+
+
 sudo nano /etc/postgresql/**version**/main/pg_hba.conf
 
 
